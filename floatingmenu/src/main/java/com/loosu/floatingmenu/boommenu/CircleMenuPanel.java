@@ -1,4 +1,4 @@
-package com.loosu.floatingmenu;
+package com.loosu.floatingmenu.boommenu;
 
 import android.content.Context;
 import android.graphics.Path;
@@ -10,6 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.FrameLayout;
+
+import com.loosu.floatingmenu.AnimationHelper;
+import com.loosu.floatingmenu.IFloatingMenu;
 
 import java.util.ArrayList;
 import java.util.List;

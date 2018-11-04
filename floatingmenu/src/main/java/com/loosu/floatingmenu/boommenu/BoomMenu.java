@@ -1,4 +1,4 @@
-package com.loosu.floatingmenu;
+package com.loosu.floatingmenu.boommenu;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,11 +11,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.loosu.floatingmenu.IFloatingMenu;
+import com.loosu.floatingmenu.R;
+import com.loosu.floatingmenu.Util;
+
 import java.util.Arrays;
 
 
-public class FloatingMenu implements IFloatingMenu {
-    private static final String TAG = "FloatingMenu";
+public class BoomMenu implements IFloatingMenu {
+    private static final String TAG = "BoomMenu";
 
     private Context mContext = null;
 
@@ -26,7 +30,7 @@ public class FloatingMenu implements IFloatingMenu {
     private ItemPanel mItemPanel = null;
 
 
-    public FloatingMenu(View actionView) {
+    public BoomMenu(View actionView) {
         mContext = actionView.getContext();
 
         mActionView = actionView;

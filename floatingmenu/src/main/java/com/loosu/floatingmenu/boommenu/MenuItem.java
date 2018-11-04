@@ -1,7 +1,9 @@
-package com.loosu.floatingmenu;
+package com.loosu.floatingmenu.boommenu;
 
 import android.support.annotation.NonNull;
 import android.view.View;
+
+import com.loosu.floatingmenu.IFloatingMenu;
 
 public class MenuItem implements IFloatingMenu.Item {
 
